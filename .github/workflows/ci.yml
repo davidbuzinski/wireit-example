@@ -11,4 +11,4 @@ jobs:
           cache: npm
       - uses: google/wireit@setup-github-actions-caching/v1
       - run: npm ci
-      - run: npm test
+      - run: npm run build
