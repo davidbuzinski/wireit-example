@@ -9,8 +9,12 @@
   "wireit": {
     "build": {
       "command": "tsc hello.ts",
-      "files": ["hello.ts"],
-      "output": ["hello.js"]
+      "files": [
+        "hello.ts"
+      ],
+      "output": [
+        "hello.js"
+      ]
     }
   },
   "author": "",
