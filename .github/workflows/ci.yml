@@ -10,5 +10,5 @@ jobs:
           node-version: 20
           cache: npm
       - uses: google/wireit@setup-github-actions-caching/v1
-      - run: npm install
+      - run: npm ci --loglevel verbose
       - run: npm run build
