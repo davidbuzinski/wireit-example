@@ -8,19 +8,18 @@
   },
   "wireit": {
     "build": {
-      "command": "tsc hello.ts",
+      "command": "tsc",
       "files": [
-        "hello.ts"
+        "**/*.ts"
       ],
       "output": [
-        "hello.js"
+        "**/*.js"
       ]
     }
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tsc": "^2.0.4",
     "typescript": "^5.4.2",
     "wireit": "^0.14.4"
   }
